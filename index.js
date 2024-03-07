@@ -3,9 +3,12 @@
 // and H is the height of the triangle.
 function getTriangleArea(base, height) {
   // TODO: Implement this function.
-  const result = -1;
+  const result = (base*height)/2;
   return result;
 }
+
+console.log.apply(getTriangleArea);
+
 
 // DO NOT CHANGE ANYTHING BELOW THIS LINE.
 
